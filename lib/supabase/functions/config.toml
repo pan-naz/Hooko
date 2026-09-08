@@ -1,0 +1,18 @@
+# Supabase Edge Functions Configuration
+
+[analyze-video]
+verify_jwt = true
+# IMPORTANT: Video analysis requires 90-180 seconds for 2 Gemini API calls
+# Free plan = 60s (WILL TIMEOUT!)
+# Pro plan = 400s max (we use 300s for safety margin)
+# Enterprise = 900s
+# You MUST be on Supabase Pro plan for this to work reliably
+max_execution_time_seconds = 300
+
+[populate-viral-examples-v2]
+verify_jwt = false
+max_execution_time_seconds = 150
+
+[track-daily-usage]
+verify_jwt = true
+max_execution_time_seconds = 10

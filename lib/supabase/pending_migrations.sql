@@ -1,0 +1,2 @@
+-- No pending migrations
+-- Niches table is already deployed and working
