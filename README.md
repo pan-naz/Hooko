@@ -1,16 +1,16 @@
-# hooko_v20
+# Hooko
 
-A new Flutter project.
+An iOS app for short-video creators. Upload a Short, Reel or TikTok, and Hooko scores the hook against the creator's niche, breaks down the audio and visuals, and writes three alternatives you can reshoot, each backed by real videos from the same niche.
 
-## Getting Started
+I designed, built and shipped it on my own.
 
-This project is a starting point for a Flutter application.
+- App Store: https://apps.apple.com/us/app/blow-up-hooko/id6758728094
+- Website: https://hooko.app/
+- Case study: https://naz.wtf/case-studies/hooko/
 
-A few resources to get you started if this is your first Flutter project:
+## Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter app for iOS
+- Supabase for the database, video storage and edge functions
+- Gemini for the video analysis
+- RevenueCat for subscriptions
